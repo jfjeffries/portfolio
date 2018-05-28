@@ -33,6 +33,25 @@
 <body>
 
     <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand text-center" href="#"><img class="coatButton navbar-btn" src="./assets/img/jeffriesbutton.gif"></a>
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse float-right" id="navbarNav">
+          <ul class="navbar-nav float-right">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <!-- As a heading -->
     
     
@@ -58,26 +77,39 @@
     <section>
             <div class="jumbotron jumbotron-fluid" id="about">
                     <div class="container">
-                        <h1 class="display-4 text-center">About</h1>
+                        <h1 class="display-4 text-center"id="about">About</h1>
                             <div class="d-inline-block row">
                                 <div class="float-left col-md-3"><img src="./assets/img/JonJeffries.jpeg" class="h-25 d-inline-block"></div>
                             
-                                    <div class="float-right col-md-8"><span class="lead text-left float-right">Hello and thank you for your interest. I am many things in my daily life: husband, father, philosopher, woodworker, carpenter, student. Coding is special to me because it allows me to express many of the skills learned doing these diverse things all in one place. Philosophy teaches (amongst other skills) how to think through large-scale and complex problems at the conceptual level. Carpentry does the same thing at a practical level. Woodworking incorporates an artistic element into something that ultimately must also function. Coding requires all these: conceptualization, practical construction, and aesthetically pleasing presentation to which my skill set lends itself very well.</span></div>
+                                    <div class="float-right col-md-8"><span class="lead text-left float-right">Hello and thank you for your interest. I am many things in my daily life: husband, father, philosopher, woodworker, carpenter, student. Coding is special to me because it allows me to express many of the skills learned doing these diverse activities all in one place. Philosophy teaches (amongst other skills) how to think through large-scale and complex problems at the conceptual level. Carpentry does the same thing at a practical level. Woodworking incorporates an artistic element into something that ultimately must also function. Coding requires all these: conceptualization, practical construction, and aesthetically pleasing presentation to which my skill set lends itself very well.</span></div>
                                 
                             </div>
                     </div>
             </div>
     </section>
+    <section class="row">
+        <div class="container-fluid">
+         <div class="skills">Skills:
+           <div class="skillsItems float-right">javaScript</div>
+           <div class="skillsItems float-right">HTML5</div>
+           <div class="skillsItems float-right">CSS</div>
+           <div class="skillsItems float-right">CSSGrid</div>
+           <div class="skillsItems float-right">Bootstrap</div>
+          </div>
 
+        </div>
+      </section>
+      <div class="projects row container-fluid" id="projects">Projects:</div>
     <!-- Portfolio -->
     <section id= "cardSection">
+        
         <div class= "col-6 containter-fluid mx-auto text-center">
             <div class="card d-inline-block mx-auto text-center" style="width: 25rem;">
                     <img class="card-img-top" src="./assets/img/apiprojectimage.PNG" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Pokemon API Project</h5>
                       <p class="card-text">Project to practice hitting API's</p>
-                      <a href="https://github.com/jfjeffries/apiproject" target="_blank" class="btn btn-primary">Github</a>
+                      <a href="https://jfjeffries.github.io/apiproject/" target="_blank" class="btn btn-primary">Github</a>
                     </div>
             </div>
             <div class="card d-inline-block mx-auto text-center" style="width: 25rem;">
@@ -85,17 +117,26 @@
                     <div class="card-body">
                       <h5 class="card-title">Storefront</h5>
                       <p class="card-text">My first simple website project.</p>
-                      <a href="https://github.com/jfjeffries/storeFront" target="_blank" class="btn btn-primary">Github</a>
+                      <a href="https://jfjeffries.github.io/storeFront/" target="_blank" class="btn btn-primary">Github</a>
                     </div>
             </div>
+            <div class="card d-inline-block mx-auto text-center" style="width: 25rem;">
+                <img class="card-img-top" src="./assets/img/creature.PNG" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">CSS Creature</h5>
+                  <p class="card-text">A picture made with CSS</p>
+                  <a href="https://codepen.io/jfjeffries/pen/VxByaY" target="_blank" class="btn btn-primary">Codepen</a>
+                </div>
+        </div>
         </div>   
     </section>
-
+    
+    <div class="row container-fluid text-center" id="download">      
+          <a  class="col"href="./assets/resume.pdf" download="resume.pdf"><button type="button" id="downloadbutton" class="btn btn-primary">Download Resume</button></a> 
+    </div>
     <!-- Contact -->
     <section>
-            
-                
-                    <div class="row">
+                    <div class="row"">
                       <div class="container col text-center" id="crest1"><img src="./assets/img/jeffriescoatofarms.gif"></div>
                       <div class="col">
                         <div class="well well-sm" >

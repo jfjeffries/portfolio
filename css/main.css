@@ -3,10 +3,6 @@
 /* body {
     background-color: firebrick;
 } */
-#navLinks{
-    float: right;
-    background-color: red;
-}
 
 #cardSection{
     /* background-color: rgb(238, 235, 232); */
@@ -19,6 +15,12 @@
     width: 100%;
     margin-bottom: 2em;
     
+}
+.coatButton{
+    margin: auto;
+    top: 50%;
+    padding-left: 3em;
+    transform: translate(-50%, -30%);
 }
 .imageText{
     margin: 1em;
@@ -36,6 +38,46 @@ body {padding-top:20px;}
 #crest2{
     margin: auto;
 }
-#contactForm{
-    background-color: black;
+#about{
+    margin-bottom: 0em;
+}
+#contact{
+    background-color: (179, 175, 175);
+}
+.skills{
+    margin: auto;
+    font-size: 150%;
+    padding-left: 2em;
+    background-color: rgb(179, 175, 175);
+    color: white;
+    margin-top: 0em;
+    margin-bottom: 2em;
+}
+.projects{
+    margin: auto;
+    font-size: 150%;
+    padding-left: 2em;
+    background-color: rgb(179, 175, 175);
+    color: white;
+    margin-bottom: 0em;
+}
+.skillsItems{
+    margin: auto;
+    /* float: right; */
+    display: inline;
+    margin-right: 2em;
+    color: white;
+}
+#download{
+    margin: auto;
+    font-size: 150%;
+    padding-left: 2em;
+    background-color: rgb(179, 175, 175);
+    color: white;
+    margin-bottom: 2em;
+}
+.downloadbtn{
+    margin: auto;
+    
+
 }
