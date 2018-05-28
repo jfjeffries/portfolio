@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +11,136 @@
     <title>Document</title>
 
     <!-- Bootstrap core CSS Modules-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
     <link href="" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
     <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="scss/main.scss">
 
 </head>
 
-<script src"./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 
 
 <body>
 
     <!-- Navigation -->
-    <nav>
-    </nav>
+    <!-- As a heading -->
+    
+    
+   
 
     <!-- Header -->
+    <div class="container-fluid no-padding">
+            <div class="row">
+                <img src="./assets/img/background.jpg" id="splash">
+                <div class="imageText" id="introText">let juniorDeveloper = "Jon Jeffries";</div>
+                <div class="container">
+                    <nav class="nav nav-pills tab-content tab-pane text-right sticky-top">
+                        <!-- <a id="navLinks" class="navbar-brand" href="#">Navbar</a> -->
+                    </nav> 
+                </div>
+            </div>
+
     <header>
+            
     </header>
-
-    <!-- Portfolio -->
-    <section>
-    </section>
-
+    </div>
     <!-- About -->
     <section>
+            <div class="jumbotron jumbotron-fluid" id="about">
+                    <div class="container">
+                        <h1 class="display-4 text-center">About</h1>
+                            <div class="d-inline-block row">
+                                <div class="float-left col-md-3"><img src="./assets/img/JonJeffries.jpeg" class="h-25 d-inline-block"></div>
+                            
+                                    <div class="float-right col-md-8"><span class="lead text-left float-right">Hello and thank you for your interest. I am many things in my daily life: husband, father, philosopher, woodworker, carpenter, student. Coding is special to me because it allows me to express many of the skills learned doing these diverse things all in one place. Philosophy teaches (amongst other skills) how to think through large-scale and complex problems at the conceptual level. Carpentry does the same thing at a practical level. Woodworking incorporates an artistic element into something that ultimately must also function. Coding requires all these: conceptualization, practical construction, and aesthetically pleasing presentation to which my skill set lends itself very well.</span></div>
+                                
+                            </div>
+                    </div>
+            </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id= "cardSection">
+        <div class= "col-6 containter-fluid mx-auto text-center">
+            <div class="card d-inline-block mx-auto text-center" style="width: 25rem;">
+                    <img class="card-img-top" src="./assets/img/apiprojectimage.PNG" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Pokemon API Project</h5>
+                      <p class="card-text">Project to practice hitting API's</p>
+                      <a href="https://github.com/jfjeffries/apiproject" class="btn btn-primary">Github</a>
+                    </div>
+            </div>
+            <div class="card d-inline-block mx-auto text-center" style="width: 25rem;">
+                    <img class="card-img-top" src="./assets/img/mancalaboard.PNG" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Storefront</h5>
+                      <p class="card-text">My first simple website project.</p>
+                      <a href="https://github.com/jfjeffries/storeFront" class="btn btn-primary">Github</a>
+                    </div>
+            </div>
+        </div>   
     </section>
 
     <!-- Contact -->
     <section>
+            
+                
+                    <div class="row">
+                      <div class="container col text-center" id="crest1"><img src="./assets/img/jeffriescoatofarms.gif"></div>
+                      <div class="col">
+                        <div class="well well-sm" >
+                          <form class="form-horizontal" action="" method="post">
+                          <fieldset>
+                            <legend class="text-center">Contact me</legend>
+                    
+                            <!-- Name input-->
+                            <div class="form-group">
+                              <label class="col-md-3 control-label" for="name">Name</label>
+                              <div class="col-md-9">
+                                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                              </div>
+                            </div>
+                    
+                            <!-- Email input-->
+                            <div class="form-group">
+                              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                              <div class="col-md-9">
+                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                              </div>
+                            </div>
+                    
+                            <!-- Message body -->
+                            <div class="form-group">
+                              <label class="col-md-3 control-label" for="message">Your message</label>
+                              <div class="col-md-9">
+                                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                              </div>
+                            </div>
+                    
+                            <!-- Form actions -->
+                            <div class="form-group">
+                              <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                              </div>
+                            </div>
+                          </fieldset>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="container col text-center" id="crest2"><img src="./assets/img/mcnuttcoatofarms.gif"></div>
+                    </div>
+                 
+              
     </section>
 
     <!-- Footer -->
@@ -53,16 +149,19 @@
 
     <!-- Copyright -->
 
-    <!-- Modals --> 
+    <!-- Modals -->
 
     <!-- Scripts -->
-
+    
     <!-- Bootstrap -->
-
+    <script src "./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- jQuery -->
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
-
+    
+    
 </body>
+
 </html>

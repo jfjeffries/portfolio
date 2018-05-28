@@ -1,5 +1,41 @@
 /* General CSS stuff goes here. */
 
-body {
+/* body {
     background-color: firebrick;
+} */
+#navLinks{
+    float: right;
+    background-color: red;
+}
+
+#cardSection{
+    /* background-color: rgb(238, 235, 232); */
+    background-color: black;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+#splash{
+    height: auto;
+    width: 100%;
+    margin-bottom: 2em;
+    
+}
+.imageText{
+    margin: 1em;
+    font-weight: bolder;
+    font-size: 150%;
+}
+#introText{
+    position: absolute;
+    color: white;
+}
+body {padding-top:20px;}
+#crest1{
+    margin: auto;
+}
+#crest2{
+    margin: auto;
+}
+#contactForm{
+    background-color: black;
 }
