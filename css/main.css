@@ -5,16 +5,13 @@
 } */
 
 #cardSection{
-    /* background-color: rgb(238, 235, 232); */
     background-color: black;
-    margin-bottom: 2em;
     padding: 2em;
 }
 #splash{
     height: auto;
     width: 100%;
-    margin-bottom: 2em;
-    
+    margin-bottom: 0em;   
 }
 .coatButton{
     margin: auto;
@@ -41,9 +38,7 @@ body {padding-top:20px;}
 #about{
     margin-bottom: 0em;
 }
-#contact{
-    background-color: (179, 175, 175);
-}
+
 .skills{
     margin: auto;
     font-size: 150%;
@@ -51,7 +46,7 @@ body {padding-top:20px;}
     background-color: rgb(179, 175, 175);
     color: white;
     margin-top: 0em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 .projects{
     margin: auto;
@@ -81,3 +76,20 @@ body {padding-top:20px;}
     
 
 }
+.copyRight{
+    margin: auto;
+    font-size: 150%;
+    padding-left: 2em;
+    background-color: rgb(179, 175, 175);
+    color: white;
+    margin-top: 1em;
+}
+
+a.toTop{
+    color: white;
+    text-decoration: none;
+}
+a.toTop:hover{
+    color: black;
+}
+
