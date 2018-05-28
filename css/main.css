@@ -3,7 +3,9 @@
 /* body {
     background-color: firebrick;
 } */
-
+.textSize{
+    text-size-adjust: auto !important;
+}
 #cardSection{
     background-color: black;
     padding: 2em;
