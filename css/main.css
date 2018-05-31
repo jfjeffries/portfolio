@@ -6,13 +6,17 @@
 .textSize{
     text-size-adjust: auto !important;
 }
+#top{
+    margin-top: 0px;
+    margin-bottom:0px;
+}
 #cardSection{
     background-color: black;
     padding: 2em;
 }
 #splash{
     height: auto;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 0em;   
 }
 .coatButton{
@@ -42,10 +46,10 @@ body {padding-top:20px;}
 }
 
 .skills{
-    margin: auto;
     font-size: 150%;
     padding-left: 2em;
     background-color: rgb(179, 175, 175);
+    height: 3em;
     color: white;
     margin-top: 0em;
     margin-bottom: 1.5em;
@@ -61,9 +65,12 @@ body {padding-top:20px;}
 .skillsItems{
     margin: auto;
     /* float: right; */
-    display: inline;
+    /* display: inline; */
     margin-right: 2em;
     color: white;
+    margin-top: .1em;
+    width: 3em;
+    font-size: 200%;
 }
 #download{
     margin: auto;
